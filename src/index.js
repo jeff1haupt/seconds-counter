@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SecondCounterContainer from './second-counter-container';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SecondCounterContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
